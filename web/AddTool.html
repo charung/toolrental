@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Tool</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- v2 changes added padding and center form -->
+    <style>
+        form {
+        text-align:center;
+        padding: 10px 100px
+        }   
+        
+    </style>
+    </head>
+    <body>
+        <!--v2 changes added navagation-->
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./History.html">History</a>
+        </nav>
+        <form>
+            <label> Tool Name: </label>
+            <input type="text" id="toolname" name="toolname"><br>
+            <label> Tool Condition: </label>
+            <input type="text" id="condition" name="condition"><br>
+            <label> Rental Price: </label>
+            <input type="text" id="price" name="price"><br>
+            <label> Penalty: </label>
+            <input type="text" id="penalty" name="penalty"><br>
+            <label> Description: </label>
+            <input type="text" id="description" name="Description"><br>
+            <label>Tool picture upload:</label>
+            <input type="file"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
